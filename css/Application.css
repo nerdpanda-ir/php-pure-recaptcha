@@ -1,0 +1,32 @@
+.fail_message {
+    padding: 10px;
+    border-radius: 3px;
+    color: #9d3333 ;
+    background-color: #dc8989 ;
+}
+.ok_message {
+    background-color: #99eaca;
+    color: #088956;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+img#captcha-image  {
+    margin-bottom: 12px;
+}
+img#captcha-image:hover {
+    cursor: pointer;
+}
+#captcha-container {
+    width: fit-content;
+    position: relative;
+}
+#captcha-reloader {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    border-radius: 5px;
+}
+#captcha-reloader:hover {
+    cursor: pointer;
+}

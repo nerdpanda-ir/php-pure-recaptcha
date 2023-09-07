@@ -1,0 +1,3 @@
+<?php
+const MIN_CAPTCHA_LENGTH = 4;
+const MAX_CAPTCHA_LENGTH = 8;
